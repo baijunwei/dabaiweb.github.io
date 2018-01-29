@@ -1,0 +1,29 @@
+{
+  "name": "koa2-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+       "sequelize",
+        "async"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-wss": "^1.0.3",
+    "log4js": "^2.3.12",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.2.8",
+    "node-uuid":"^1.4.8",
+    "koa-cors":"^0.0.16",
+    "http-server": "^0.9.0"
+  }
+}
